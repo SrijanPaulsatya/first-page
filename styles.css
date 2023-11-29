@@ -54,25 +54,23 @@ a {
 .header-style {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 48px;
+    margin-bottom: 9em;
 }
 
 .header-image img {
-    max-width: 650px;
-    height: auto;
-    min-width: 300px;
+    display: flex;
+    width: 35vw;
+    align-items: center;
 }
 
 .title-container {
     display: flex;
-    flex: 1;
     justify-content: space-between;
     align-items: flex-start;
     gap: 48px;
     margin-bottom: 64px;
-    margin-right: auto;
     flex-wrap: wrap;
-    overflow: auto;
+
 }
 
 .title-subtext {
